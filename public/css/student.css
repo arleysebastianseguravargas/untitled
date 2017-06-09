@@ -1,3 +1,23 @@
+*{
+margin:0 auto;
+}
 h1 {
 color : red;
+margin:0 auto;
+}
+table{
+ border:1px solid red;
+ width:900px;
+ margin:0 auto;
+}
+table td {
+    border:1px solid #000;
+     border:1px solid red;
+}
+table tr{
+ border:1px solid #000;
+     border:1px solid red;
+}
+body{
+background-image:url(../img/40.jpg)
 }

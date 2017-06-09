@@ -1,5 +1,5 @@
 class Utilidades:
 
     def cargarArchivo(self,nombreArchivo):
-        file =open(nombreArchivo,"r")
+        file =open("public/item.csv","r")
         return file

@@ -6,6 +6,7 @@ class Template:
     <head>
     [1]
     <link href="static/css/student.css" rel="stylesheet">
+
     </head>    
     <body>
     [2]

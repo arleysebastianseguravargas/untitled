@@ -2,9 +2,13 @@ import cherrypy,os
 from generador import Generador
 from template import Template
 
+
 class goodAndDevil(object):
     @cherrypy.expose
     def index(self):
+
+
+
         miGenerador = Generador()
         pagina =""
         template = Template()
@@ -12,6 +16,7 @@ class goodAndDevil(object):
         pagina = pagina.replace("[2]",miGenerador.generarTitulo("h1","Game Score"))
         pagina = pagina.replace("[3]",miGenerador.generarTabla())
         return pagina
+
 
 
 
